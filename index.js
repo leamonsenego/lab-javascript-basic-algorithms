@@ -43,12 +43,19 @@ console.log(result.join(''))
 
 console.log(result.reverse().join(''))
 
-/* sorted alphabetically */
+/* Iteration 3 - pair programming session with Anastasia */
 
-let players = [driver, navigator]
-let sortedPlayers = players.sort()
 
-console.log(sortedPlayers)
+let driver1 = "Anastasiia"
+let driver2 = "Lea"
+let firstChar = driver1[0]
+let secondChar = driver2[0]
+let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+if (alphabet.indexOf(firstChar)<alphabet.indexOf(secondChar)) {
+  console.log(driver1)
+}
+else {
+    console.log(driver2)
+}
 
-console.log("Yo, the navigator goes first, definitely.") 
 
